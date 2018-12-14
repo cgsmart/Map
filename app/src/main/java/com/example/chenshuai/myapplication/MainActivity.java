@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         Toast.makeText(MainActivity.this,"This is a Toast!",Toast.LENGTH_SHORT).show();
         Toast.makeText(MainActivity.this,"This is a Toast3!",Toast.LENGTH_SHORT).show();
+        Toast.makeText(MainActivity.this,"This is a Toast4",Toast.LENGTH_SHORT).show();
         setContentView(R.layout.activity_main);
         Uri uri = Uri.parse("content://com.example.app.provider/table1");
     }
